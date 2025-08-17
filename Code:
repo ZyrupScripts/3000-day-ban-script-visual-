@@ -1,0 +1,8 @@
+-- LocalScript inside StarterPlayerScripts
+local player = game.Players.LocalPlayer
+
+-- Delay a little so the game loads
+wait(2)
+
+-- Kick the player with a custom message
+player:Kick("You are currently banned for: 3704 days, 19 hours")
