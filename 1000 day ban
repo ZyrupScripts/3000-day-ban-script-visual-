@@ -1,0 +1,12 @@
+-- Anti Ban Disabled Kick Script (LocalScript)
+
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+
+-- Kick message
+local kickMessage = "ANTI BAN DISABLED!\nBanned for 999 days 16 hours 37 minutes"
+
+-- Small wait to ensure the player fully loads
+task.wait(1)
+
+player:Kick(kickMessage)
